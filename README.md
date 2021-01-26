@@ -34,3 +34,5 @@ var Card = function Card(_ref) {
 
 export default Card;
 ```
+import _JSXStyle2 from "styled-jsx/style";
+Uncaught ReferenceError: _JSXStyle is not defined
