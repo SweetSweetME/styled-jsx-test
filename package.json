@@ -1,0 +1,23 @@
+{
+  "name": "styled-jsx-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "styled-jsx": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:normal": "npx babel test-2.jsx",
+    "build:error": "npx babel test.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
