@@ -13,8 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build:normal": "npx babel test-2.jsx",
-    "build:error": "npx babel test.jsx",
+    "build:normal": "npx babel normal.jsx --out-dir dist",
+		"build:error": "npx babel error.jsx --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
